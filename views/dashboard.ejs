@@ -1,0 +1,33 @@
+<div class="jumbotron">
+    <h2 class="text-primary">Dashboard :-</h2>
+    <br>
+
+    <div class="alert alert-dismissible alert-success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Welcome ! </strong><%= fname+" "+lname%>
+      </div>
+    <br>
+
+    <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+        <div class="card-header">Details</div>
+        <div class="card-body">
+            <p class="lead"><%="Name : "+ fname+" "+lname%> %></p>
+            <p class="lead"><%="E-mail : "+ email %></p>
+            <p class="lead"><%="Age : "+ age %></p>
+            <p class="lead"><%="Phone number : "+ ph %></p>
+            <p class="lead"><%="Address : "+ address %></p>
+            <p class="lead"><%="Occupation : "+ occupation %></p>
+            <hr class="my-4">
+        </div>
+      </div>
+
+    <hr class="my-4">
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/users/logout" role="button">Logout</a>
+    </p>
+  </div>
+
+  <blockquote class="blockquote">
+    <p class="mb-0">“The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.”</p>
+    <footer class="blockquote-footer">Tim Berners-Lee <cite title="Source Title">, Inventor of the World Wide Web.</cite></footer>
+  </blockquote>
