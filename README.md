@@ -13,10 +13,12 @@ This app has a login and signup option with a URL protected dashboard that only 
 
 * Main screen
 <img src="ss/ss1.JPG" height=300px>
+
 * Register screen
-<img src="ss/ss2.JPG" height=300px>
+<img src="ss/ss2.JPG" height=400px>
+
 * Login screen
-<img src="ss/ss3.JPG" height=300px>
+<img src="ss/ss3.JPG" height=400px>
 
 ## Live demo
 https://auth-web-app.herokuapp.com/
