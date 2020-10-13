@@ -1,3 +1,3 @@
 module.exports = {
-    MongoURI:"mongodb+srv://DRock:callofduty@auth-app.n0rgc.mongodb.net/foxmula?retryWrites=true&w=majority"
+    MongoURI:"Enter your URI between the quotes from mongodb.com"
 }
